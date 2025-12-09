@@ -21,6 +21,7 @@ function PopMovie({
     } finally {
       setLoading(false);
     }
+    console.log(loading);
   };
   useEffect(() => {
     getMovieDetails();

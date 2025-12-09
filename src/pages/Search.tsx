@@ -3,7 +3,6 @@ import Nav from "../components/Nav";
 import tmdb from "../api/tmbd";
 import type { MoviesData } from "../components/Movies";
 import Card from "../components/Card";
-import type { ReactFormState } from "react-dom/client";
 
 function Search() {
   const [input, setInput] = useState<string>("");

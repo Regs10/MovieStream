@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Create() {
   const [username, setUsername] = useState<string>("");
