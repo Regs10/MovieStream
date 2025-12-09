@@ -1,5 +1,5 @@
 import Nav from "../components/Nav";
-import Create from "./Create";
+
 import { Link } from "react-router-dom";
 
 function Login() {
